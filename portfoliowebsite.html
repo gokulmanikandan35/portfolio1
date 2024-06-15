@@ -1,1 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>portfolio</title>
+	<link rel="stylesheet" href="../css/portfolio.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+	<!-- nav bar section -->
+<nav class="navbar navbar-expand-lg position-sticky top-0 bg-dark">
+	<div class="container-fluid">
+	  <a class="navbar-brand fw-bold" href="#">PORTFOLIO</a>
+	  <button class="navbar-toggler bg-danger"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		  <li class="nav-item">
+			<a class="nav-link active" aria-current="page" href="#home">HOME</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#about">ABOUT ME</a>
+		  </li>
+		  <li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+			  OTHERS
+			</a>
+			<ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="./portfolioform.html">LOGIN</a></li>
+			  <li><a class="dropdown-item" href="./portfolioform2.html">REGISTER</a></li>
+			  <li><hr class="dropdown-divider"></li>
+			  <li><a class="dropdown-item" href="#projects">PROJECTS</a></li>
+			</ul>
+		  </li>
+		</ul>
+		<form class="d-flex" role="search">
+		  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+		  <button class="btn btn-outline-success" type="submit">Search</button>
+		</form>
+	  </div>
+	</div>
+  </nav>
+<div class="container">
+ <!-- home section -->
+ <main class="" id="home">
+	<a href="#about"><img class=" m-lg-5 m-md-0 rounded-circle" src="../video,audio,img/image/Picsart_23-09-19_19-38-21-151.jpg" alt=""></a>
+	<h1>HI AM <span style="color: aqua; font-size: 50px;">GOKUL</span></h1>
+	<h5>I AM <span style="color: rgb(98, 255, 0); font-size: 30px;">MERN STACK DEV</span></h5>
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, officiis quia! Ab eos perferendis, amet quidem voluptas natus voluptatum animi, molestiae totam debitis saepe, vel in? Quam repellendus sapiente nisi.</p>
+ </main>
 
+   <!-- about -->
+   <div id="about" class="para ms-md-5">
+	<img src="data:image/png;base64,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" alt="">
+		
+		<h1>IAM CEO OF <span> WEB WORLD</span></h1>
+	 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime iste fuga delectus debitis placeat laudantium ut, quidem necessitatibus eaque consequuntur architecto amet vero aliquam asperiores dolorem laboriosam repellat natus Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta maiores perferendis, pariatur fuga praesentium architecto cum eaque, nam, dolores eligendi quos debitis? Ab repellat itaque exercitationem illo incidunt sed! Modi.</p>
+    </div>
+
+ <!-- projects section -->
+  <div id="projects">
+	<div class="card card1" style="width: 18rem;">
+		<img src="../video,audio,img/pro1.jfif" class="card-img-top" alt="...">
+		<div class="card-body">
+		  <h5 class="card-title">COMPLETE WEB DEV PAGE</h5>
+		  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		  <a href="#" class="btn btn-primary">Go somewhere</a>
+		</div>
+	  </div>
+	  <div class="card card2" style="width: 18rem;">
+		<img src="../video,audio,img/pro2.jfif" class="card-img-top" alt="...">
+		<div class="card-body">
+		  <h5 class="card-title">MULTIPLE PAGE</h5>
+		  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		  <a href="#" class="btn btn-primary">Go somewhere</a>
+		</div>
+	  </div>
+	  <div class="card card3" style="width: 18rem;">
+		<img src="../video,audio,img/pro3.jfif" class="card-img-top" alt="...">
+		<div class="card-body">
+		  <h5 class="card-title">NIKE</h5>
+		  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		  <a href="#" class="btn btn-primary">Go somewhere</a>
+		</div>
+	</div>
+  </div>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</body>
+</html>
